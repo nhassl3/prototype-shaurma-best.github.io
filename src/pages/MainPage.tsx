@@ -174,7 +174,6 @@ export default function MainPage() {
       <section id="menu" className="menu">
         <div className="reveal menu-head">
           <h2 className="section-title">Меню</h2>
-          <a href="#menu" className="arrow-link menu-more">Открыть полное меню <span>→</span></a>
         </div>
         <div className="reveal chips">
           {CATEGORIES.map((c, i) => (
@@ -201,6 +200,8 @@ export default function MainPage() {
             </article>
           ))}
         </div>
+
+        <div className="menu-more"><a href="#menu" className="btn btn-primary bg-accent text-ink menu-more-btn menu-more-btn--primary">Открыть полное меню<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div>
       </section>
 
       {/* BUILDER */}
