@@ -1,0 +1,56 @@
+.extras { max-width: 1240px; margin: 0 auto; padding: 0 24px 72px; display: flex; flex-direction: column; gap: 24px; }
+.extras-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 20px; }
+.extras-tile { aspect-ratio: 4 / 5; border-radius: 28px; padding: 24px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; text-decoration: none; }
+.extras-tile-note { font-size: 13px; font-weight: 600; }
+.tile-title { display: flex; flex-direction: column; gap: 6px; }
+.extras-tile-name { font-family: Unbounded, sans-serif; font-weight: 800; font-size: 28px; }
+.extras-tile-cta { font-weight: 700; font-size: 15px; }
+
+/* Relation menu */
+.bg-burger {
+	background: var(--coal) url(../../assets/burger.jpg) center/cover no-repeat;
+}
+.bg-shashlik {
+	background: var(--coal) url(../../assets/shashlik.png) center/cover no-repeat;
+}
+.bg-khachapuri {
+	background: var(--coal) url(../../assets/khachapuri.png) center/cover no-repeat;
+}
+.bg-kebab {
+	background: var(--coal) url(../../assets/kebab.png) center/cover no-repeat;
+}
+
+/* History */
+.bg-history {
+	background: var(--coal) url(../../assets/history.jpg) center/cover no-repeat;
+}
+
+/* Hero */
+.bg-background-coal {
+	background: var(--coal) url(../../assets/backgorund-coal.jpg) center/cover no-repeat;
+}
+.bg-main {
+	background: var(--coal) url(../../assets/main.jpg) center/cover no-repeat;
+}
+.bg-logo {
+	background: url(../../assets/logo.svg) center / auto 300% no-repeat;
+}
+
+/* Menu backgrounds */
+.bg-marbled-beef {
+	background: url(../../assets/marbled-beef.jpg) center/cover no-repeat;
+}
+.bg-chicken-beef-curry {
+	background: url(../../assets/chicken-beef-curry.png) center/cover no-repeat;
+}
+.bg-chicken-beef-fries {
+	background:  url(../../assets/chicken-beef-with-fries.jpg) center/cover no-repeat;
+}
+.bg-pork-beef {
+	background: url(../../assets/pork-beef.jpeg) center/cover no-repeat;
+}
+
+/* Constructor */
+.bg-chicken-beef {
+	background: url(../../assets/chiken-beef.jpg) center/cover no-repeat;
+}

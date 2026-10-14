@@ -1,0 +1,8 @@
+.footer-inner { max-width: 1240px; margin: 0 auto; padding: 48px 24px; display: flex; justify-content: space-between; gap: 32px; flex-wrap: wrap; }
+.footer-brand { display: flex; flex-direction: column; gap: 8px; }
+.footer-title { font-family: Unbounded, sans-serif; font-weight: 800; font-size: 20px; }
+.footer-address { font-size: 14px; }
+.footer-nav { display: flex; gap: 24px; flex-wrap: wrap; font-size: 15px; font-weight: 600; }
+.footer-socials { display: flex; gap: 10px; }
+.soc { width: 48px; height: 48px; border-radius: 999px; display: flex; align-items: center; justify-content: center; text-decoration: none; }
+.soc--text { font-weight: 800; font-size: 14px; }

@@ -1,0 +1,15 @@
+.menu { max-width: 1240px; margin: 0 auto; padding: 72px 24px 24px; display: flex; flex-direction: column; gap: 24px; }
+.menu-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; }
+.menu-more { font-weight: 700; font-size: 16px; padding: 12px 0; }
+.chips { display: flex; gap: 10px; flex-wrap: wrap; }
+.chip { text-decoration: none; font-weight: 600; font-size: 15px; padding: 14px 22px; border-radius: 999px; }
+.chip--active { font-weight: 700; }
+.menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; padding-top: 8px; }
+.menu-card { border-radius: 28px; padding: 12px; display: flex; flex-direction: column; gap: 14px; }
+.menu-card-photo { aspect-ratio: 1 / 1; display: flex; align-items: flex-start; padding: 16px; box-sizing: border-box; font-size: 13px; font-weight: 600; }
+.menu-card-body { padding: 0 8px; display: flex; flex-direction: column; gap: 6px; }
+.menu-card-title { margin: 0; font-size: 18px; font-weight: 800; line-height: 1.25; }
+.menu-card-desc { margin: 0; font-size: 14px; }
+.menu-card-footer { padding: 0 4px 4px 8px; display: flex; justify-content: space-between; align-items: center; margin-top: auto; }
+.menu-card-price { font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px; }
+.add-btn { width: 52px; height: 52px; border-radius: 999px; border: 0; display: flex; align-items: center; justify-content: center; cursor: pointer; }

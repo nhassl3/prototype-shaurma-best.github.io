@@ -1,0 +1,11 @@
+.site-header { max-width: 1240px; margin: 0 auto; padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+.logo { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.logo-mark { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+.logo-text { display: flex; flex-direction: column; line-height: 1.05; }
+.logo-title { font-family: Unbounded, sans-serif; font-weight: 800; font-size: 17px; letter-spacing: -0.01em; }
+.logo-sub { font-size: 13px; font-weight: 600; }
+.site-nav { display: flex; gap: 28px; font-weight: 600; font-size: 15px; flex-wrap: wrap; }
+.nav-link { text-decoration: none; }
+.header-actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.header-phone { font-weight: 700; font-size: 16px; }
+.cart-btn { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 18px; border-radius: 999px; border: 0; font: 700 15px Manrope, sans-serif; cursor: pointer; }

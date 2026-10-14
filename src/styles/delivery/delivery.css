@@ -1,0 +1,11 @@
+.delivery-inner { max-width: 1240px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 40px; }
+.delivery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+.dcard { border-radius: 28px; padding: 28px; display: flex; flex-direction: column; gap: 14px; }
+.dcard-title { margin: 0; font-size: 22px; font-weight: 800; }
+.dcard-value { margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 26px; }
+.dcard-text { margin: 0; font-size: 15px; line-height: 1.5; }
+.delivery-phones { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.delivery-phones-label { font-weight: 600; font-size: 15px; margin-right: 8px; }
+.phone-btn { text-decoration: none; font-size: 17px; border-radius: 999px; }
+.phone-btn--primary { font-weight: 800; padding: 16px 24px; }
+.phone-btn--ghost { font-weight: 700; padding: 15px 24px; border: 1.5px solid; }
