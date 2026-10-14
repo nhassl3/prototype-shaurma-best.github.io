@@ -1,6 +1,23 @@
 .menu { max-width: 1240px; margin: 0 auto; padding: 72px 24px 24px; display: flex; flex-direction: column; gap: 24px; }
 .menu-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; }
-.menu-more { font-weight: 700; font-size: 16px; padding: 12px 0; }
+.menu-more {
+	display: flex;
+	justify-content: center;
+}
+.menu-more-btn { 
+  display: flex;
+  align-items: center;
+  min-height: 56px;
+  padding: 0 28px;
+  border-radius: 999px;
+  font-size: 17px;
+	max-width: fit-content;
+  text-decoration: none;
+}
+.menu-more-btn--primary {
+	gap: 10px;
+	font-weight: 800;
+}
 .chips { display: flex; gap: 10px; flex-wrap: wrap; }
 .chip { text-decoration: none; font-weight: 600; font-size: 15px; padding: 14px 22px; border-radius: 999px; }
 .chip--active { font-weight: 700; }
